@@ -149,7 +149,7 @@ document.getElementById("book-form").addEventListener("submit", function (e) {
       Store.removeBook(e.target.parentElement.previousElementSibling.textContent);
   
       // Show message
-      ui.showAlert('Book Removed', 'success');
+      ui.showAlert('Book Removed', 'error');
   
       e.preventDefault();
   })
